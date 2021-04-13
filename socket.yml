@@ -1,0 +1,6 @@
+apps:
+  - name: laravel-websockets
+    script: artisan
+    interpreter: php
+    args:
+      - websockets:serve
